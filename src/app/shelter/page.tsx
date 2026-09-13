@@ -2211,7 +2211,7 @@ export default function ShelterPage() {
                 <div className="text-xs text-slate-500">Roof Area [m²]</div>
               </div>
               <div>
-                <div classNames="text-lg font-semibold text-white">{geometry.floorArea.toFixed(1)}</div>
+                <div className="text-lg font-semibold text-white">{geometry.floorArea.toFixed(1)}</div>
                 <div className="text-xs text-slate-500">Floor Area [m²]</div>
               </div>
             </div>
